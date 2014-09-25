@@ -8,7 +8,10 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
 export GIT_AUTHOR_NAME GIT_COMMITTER_NAME GIT_AUTHOR_EMAIL GIT_COMMITTER_EMAIL
 
+alias git='git -c alias.co="git checkout"'
+alias grep='grep --color'
 alias vi=vim
+alias view='vim -R'
 
 # Determine best editor
 for E in vim vi nano; do
