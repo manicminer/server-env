@@ -10,6 +10,7 @@ export GIT_AUTHOR_NAME GIT_COMMITTER_NAME GIT_AUTHOR_EMAIL GIT_COMMITTER_EMAIL
 
 alias git='git -c alias.co="git checkout"'
 alias grep='grep --color'
+alias ls='ls --color'
 alias vi=vim
 alias view='vim -R'
 
