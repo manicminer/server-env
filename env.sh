@@ -14,6 +14,8 @@ alias ls='ls --color'
 alias vi=vim
 alias view='vim -R'
 
+which colordiff >/dev/null && alias diff=colordiff
+
 # Determine best editor
 for E in vim vi nano; do
   if which $E 2>/dev/null 1>/dev/null; then
